@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Magomed_the_best</title>
+        <meta name="viewport" content="width: device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="icon" type="image/x-icon" href="src/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class='logo'><a class='logo_nav' href="index.html">j</a></div>
+            <nav>
+                <ul>
+                    <li><a class="a_in_nav" href="programm.html">Программа подготовки</a></li>
+                    <li><a class="a_in_nav" href="price.html">Цены</a></li>
+                    <li><a class="a_in_nav" href="review.html">Отзывы учеников</a></li>
+                    <li class="last"><a class="a_in_nav" href="about.html">Обо мне</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="maga_container">
+                <div class="maga_title">
+                    Не просто ЕГЭ, а ЕГЭ с характером!
+                </div>
+                <div class="hello">
+                    Приветствую вас на своём сайте, меня зовут Магомед, я репетитор по информатике.<br>
+                    Самая важная информация представлена ниже: 
+                </div>
+                <div class="facts">
+                    <ul class="maga_list">
+                        <li>- Занимаюсь подготовкой к ОГЭ и ЕГЭ по информатике на протяжении двух лет.</li>
+                        <li>- Мои ученики сдают государственные экзамены на достаточно высокие баллы.</li>
+                        <li>- С программой подготовки вы можете ознакомиться на <a href="programm.html">этой</a> странице.</li>
+                        <li>- С ценами на подготовку по разным направлениям вы можете ознакомиться на <a href="price.html">этой</a> странице.</li>
+                        <li>- С отзывами учеников вы можете ознакомиться на <a href="review.html">этой</a> странице.</li>
+                    </ul>                  
+                </div>
+                <p class="before_form">Если вас заинтересовали мои услуги, вы можете заполнить форму ниже, и мы с вами обязательно свяжемся</p>
+                <div class="form-container">
+                    <h2>Заявка на обучение</h2>
+                    <form action="#">
+                        <label for="firstName">Имя:</label>
+                        <input type="text" id="firstName" name="firstName" required>
+            
+                        <label for="lastName">Фамилия:</label>
+                        <input type="text" id="lastName" name="lastName" required>
+            
+                        <label for="phone">Номер телефона:</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]+" required>
+            
+                        <label for="examType">Тип экзамена:</label>
+                        <select id="examType" name="examType" required>
+                            <option value="ЕГЭ">ЕГЭ</option>
+                            <option value="ОГЭ">ОГЭ</option>
+                        </select>
+            
+                        <label>
+                            <input type="checkbox" id="urgent" name="urgent"> Срочная подготовка
+                        </label>
+            
+                        <button type="submit">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <span>Если у вас есть вопросы, <a href="mailto:adsmi888@gmail.com">напишите</a> нам</span>
+            <div class="footer_icon">
+                <a href="https://www.instagram.com/" target="_blank"><img src="src/instagram.svg" alt="Instagram"></a>
+                <a href="https://vk.com" target="_blank"><img src="src/vk.png" alt="vk"></a>
+                <a href="https://web.telegram.org" target="_blank"><img src="src/telegram.svg" alt="Telegram"></a>
+            </div>
+        </footer>
+    </body>
+</html>
