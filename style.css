@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+}
+
+.logo {
+  width: 98px;
+  height: 70px;
+  background-image: url('src/Logo.png');
+  background-repeat: no-repeat;
+  background-size: 298px 210px;
+}
+
+
+nav ul {
+    height: 70px;
+    box-sizing: border-box;
+    background-color: chocolate;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    border-left: none;
+    border-right: none;
+    margin: 0;
+ }
+
+.last {
+  position: absolute;
+  top: 0;
+  right: 25px;    
+}
+
+nav li a {
+    padding: 40px 20px 30px 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+nav li {
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    height: 70px;
+    background-color: chocolate;
+    padding: 0;
+    margin: 0;
+}
+
+nav::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.logo a {
+  text-align:center;
+  vertical-align: middle;
+}
+
+.logo_nav {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  color: transparent;
+}
+
+footer span a{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;  
+}
+
+footer span a:hover {
+    text-decoration: underline;
+    color: #FF9640;
+}
+
+.a_in_nav {
+    position: relative;
+    top: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.a_in_nav:hover {
+    text-decoration: underline;
+    color: #FF9640;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: chocolate;
+}
+
+footer span {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+.footer_icon {
+    display: flex;
+    margin-left: auto;
+}
+
+.footer_icon img {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+.maga_container {
+    background-color: #FF9640;
+    padding-bottom: 30px;
+}
+
+.maga_list {
+    margin: 0;
+    list-style-type: none;
+}
+
+.maga_list a {
+  color: black;
+}
+
+.maga_list a:hover {
+    color: chocolate;
+}
+
+.maga_container .maga_title {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.hello {
+  width: 80%;
+  margin-left: 30px;
+  font-size: 24px;
+}
+
+.maga_list li {
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+.before_form {
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.form-container {
+    width: 400px;
+    margin: 30px 0 0 50px;
+    padding: 20px;
+    border: 1px solid chocolate;
+    border-radius: 5px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="tel"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid chocolate;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #FFB273;
+}
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button[type="submit"] {
+    background-color: chocolate;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="text"]:focus, input[type="tel"]:focus {
+    border: 2px solid chocolate;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px black;
+}
+
+button[type='submit']:hover {
+    box-shadow: 2px 2px 2px black;
+    color: white;
+}
