@@ -262,3 +262,105 @@ button[type='submit']:hover {
     box-shadow: 2px 2px 2px black;
     color: white;    
 }
+
+main {
+    background-color: #FF9640;
+}
+
+.price_container {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-inline: auto;
+    width: 80%;
+    background-color: #FF9640;
+    display: grid;
+    grid-template-areas: "oge_lite ege_lite"
+                         "oge_pro ege_lite";
+    gap: 30px;
+}
+
+.price_container h2 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.oge_lite {
+    grid-area: "oge_lite";
+    width: 450px;
+    padding: 30px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+}
+
+.ege_lite {
+    grid-area: "ege_lite";
+    width: 450px;
+    padding: 30px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+}
+
+.oge_pro {
+    grid-area: "oge_pro";
+    width: 450px;
+    padding: 30px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+}
+
+.ege_pro {
+    grid-area: "ege_pro";
+    width: 450px;
+    padding: 30px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+}
+
+.price_container img {
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.price_oge_lite {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.lessons_oge_lite {
+    font-size: 18px;
+}
+
+.price_ege_lite {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.lessons_ege_lite {
+    font-size: 18px;
+}
+
+.price_oge_pro {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.lessons_oge_pro {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.price_ege_pro {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.lessons_ege_pro {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.special {
+    font-size: 18px;
+}
