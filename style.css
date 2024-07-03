@@ -206,3 +206,59 @@ button[type='submit']:hover {
     box-shadow: 2px 2px 2px black;
     color: white;
 }
+
+.program_container {
+    background-color: #FF9640;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.program_img img {
+    width: 500px;
+    height: auto;
+}
+
+.program_info {
+    width: 600px;
+    font-size: 24px;
+}
+
+.program_title {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.program_info img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.program_base {
+    margin-bottom: 15px;
+}
+
+.program_button_container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.program_button_container a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: chocolate;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;    
+}
+
+.program_button_container a:hover {
+    box-shadow: 2px 2px 2px black;
+    color: white;    
+}
