@@ -374,3 +374,36 @@ main {
 .main_about {
     height: 700px;
 }
+
+.review_container {
+    padding: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.review_item {
+    width: 500px;
+    border: 5px solid chocolate;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.review_item img {
+    width: 50px;
+    height: 50px;
+    display: inline;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline;
+}
+
+.content {
+    font-size: 18px;
+}
